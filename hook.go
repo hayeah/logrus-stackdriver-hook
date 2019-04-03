@@ -21,6 +21,9 @@ var DefaultErrorLevels = []logrus.Level{
 
 // DefaultLogLevels are default log levels suitable for sending to log collector
 var DefaultLogLevels = []logrus.Level{
+	logrus.PanicLevel,
+	logrus.FatalLevel,
+	logrus.ErrorLevel,
 	logrus.WarnLevel,
 	logrus.InfoLevel,
 }
